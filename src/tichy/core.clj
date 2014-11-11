@@ -3,16 +3,6 @@
 
 (defonce brain (atom {:name "Ijon Tichy"}))
 
-(def ears (fn [m]
-            (loop [hooks @ear-hook]
-              (when (first hooks)
-                (if-let [r (try
-                             ((first  hooks) m)
-                             (catch Exception e
-                               (println "ERROR: e")))]
-                  r
-                  (recur (rest hooks)))))))
-
 (defonce ear-hook (atom []))
 
 (defn clear-ear-hook []
@@ -30,6 +20,16 @@
          (partial
           remove #{func})))
 
+
+(def ears (fn [m]
+            (loop [hooks @ear-hook]
+              (when (first hooks)
+                (if-let [r (try
+                             ((first  hooks) m)
+                             (catch Exception e
+                               (println "ERROR: e")))]
+                  r
+                  (recur (rest hooks)))))))
 
 (defonce voice (atom 
                 (fn [m]

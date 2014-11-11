@@ -12,7 +12,8 @@
 
 
 (deftest test-base
-  (clear-state)
+  (clear-ear-hook)
+  (swap! brain {})
   (add-ear-hook (fn [m] nil))
   (add-ear-hook :body)
   (is (= "foo" (ears {:body "foo"}))
@@ -27,6 +28,4 @@
   (is (= "FOO" (ears {:body "foo"}))
       "Ear handlers stop at first handler that returns a result"))
 
-
-(test-base)
 
