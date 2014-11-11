@@ -3,17 +3,20 @@
 
 (defonce brain (atom {:name "Ijon Tichy"}))
 
-(defonce ears (atom (fn [m]
-                      (loop [hooks @ear-hook]
-                        (when (first hooks)
-                          (if-let [r (try
-                                       ((first  hooks) m)
-                                       (catch Exception e
-                                         (println "ERROR: e")))]
-                            r
-                            (recur (rest hooks))))))))
+(def ears (fn [m]
+            (loop [hooks @ear-hook]
+              (when (first hooks)
+                (if-let [r (try
+                             ((first  hooks) m)
+                             (catch Exception e
+                               (println "ERROR: e")))]
+                  r
+                  (recur (rest hooks)))))))
 
 (defonce ear-hook (atom []))
+
+(defn clear-ear-hook []
+  (reset! ear-hook []))
 
 (defn add-ear-hook [func]
   (do
@@ -22,7 +25,7 @@
       (swap! ear-hook conj func))
     @ear-hook))
 
-(defn remove-hook [func]
+(defn remove-ear-hook [func]
   (swap! ear-hook
          (partial
           remove #{func})))
@@ -48,7 +51,7 @@
          :host (:host config)
          :domain (:domain config)
          :handler (fn [m] 
-                    (when-let [response (@ears m)]
+                    (when-let [response (ears m)]
                       (@voice response)))}]
     (remember :config myconfig)
     (apply xmpp/start-bot 
