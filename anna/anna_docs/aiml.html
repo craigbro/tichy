@@ -1,0 +1,68 @@
+<html>
+<head>
+<link rel="stylesheet" title="grey" href="http://annabot.sf.net/anna.css" type="text/css">
+<link rel="alternate stylesheet" title="orange" href="http://www.lfay.net/anna/anna.css" type="text/css" />
+<title>Anna - Evolution. Revolution.</title>
+</head>
+<body>
+<div id="image"></div>
+<div id="leftnav">
+<span class="nav">Navigation</span><br />
+<a href="index.html">+home</a><br />
+<a href="faq.html">+faq</a><br />
+<span class="likea">+howto</span><br />
+&nbsp;&nbsp;<a href="anna.html">+using anna</a><br />
+&nbsp;&nbsp;<a href="aiml.html">+coding aiml</a><br />
+&nbsp;&nbsp;<a href="bio.html">+biography</a><br />
+<a href="download.html">+download</a><br />
+<a href="http://sourceforge.net/projects/annabot/">+sf project</a><br />
+<a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/annabot/">+cvs tree</a><br />
+<br />
+<br />
+<div id="hosted">
+Everything is &copy;2002 Abe Othman<br />aothman at umich dot edu<br />Hosted by:<br /><a href="http://www.sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=56326&type=1" alt="SourceForge.net" /></a></div>
+</div>
+<div id="news"><h1>Basic AIML coding instructions</h1>
+<p>The files that control what Anna says are written in a special markup language called AIML - Artificial Intelligence Markup Language. Since AIML is an XML specification, it relies on tags (enclosed in &lt;brackets&gt; to operate. If you have ever edited an HTML document, you will see the similarities quickly.</p>
+<p>This guide is intended to show you the fundamentals of editing AIML - it is recommended that you open up a small AIML file, such as anna_brain/1.aiml while reading this document so you can follow along easily. Essentially, a pattern is matched within the &lt;pattern&gt; tags and the response that is given back is in the &lt;template&gt; tag. Since only the most appropriate pattern is matched, only one output is generated for each input.</p>
+<h2>*</h2>
+The * represents a "wildcard match" that matches one or more words in the &lt;pattern&gt; tag.
+<h2>_</h2>
+Like the *, the _ also represents wildcard matching, but with more precedence than other matches.
+<h2>&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;</h2>
+The first line of the AIML document, it specifies the document as the appropriate XML type. This tag is essential for all XML applications. Since AIML is an extended XML subset, this tag is required at the start of all valid AIML files.
+<h2>&lt;aiml&gt; ...... &lt;/aiml&gt;</h2>
+This tag is the parent tag for the entire AIML document. It is normally the second statement in the AIML file. Dont try to write AIML without one of these sets. 
+<h2>&lt;category&gt; ...... &lt;/category&gt;</h2>
+This tag is the container tag for the "Meat" of the AIML language. Within the catgory tag, there should be two sets of tags, the "matching" part of the expression and the "returning" part of the expression. Generally these are represented by the &lt;pattern&gt; and &lt;template&gt; tags, but other tags may be used.
+<h2>&lt;pattern&gt; ...... &lt;/pattern&gt;</h2>
+Specifies the pattern to match. Can involve Wildcards, like *, which matches 1 or more word.
+<h2>&lt;this&gt; ...... &lt;/this&gt;</h2>
+The &lt;this&gt; tag is placed immediately after the &lt;/pattern&gt; and immediately before the &lt;template&gt; tags. It specifies the last thing Anna has said. It is most appropriately used when the response is ambiguous. For instance, look up any name and see that is has a &lt;this&gt; tag specifying whether or not to respond through a name. This reduces duplications and makes Anna seem more human.
+<h2>&lt;template&gt; ...... &lt;/template&gt;</h2>
+How Anna responds when the &lt;pattern&gt; tag within the &lt;category&gt; is matched.
+<h2>&lt;random&gt; ...... &lt;/random&gt;</h2>
+This tag selects a random element from the list of &lt;li&gt;s that appear witin it.
+<h2>&lt;li&gt; ...... &lt;/li&gt;</h2>
+Specifies a list item. Used within the &lt;random&gt; tag.
+<h2>&lt;srai&gt; ...... &lt;/srai&gt;</h2>
+Perhaps the most fundamental tag. It specifies recursion, where anything within the tag is acted on as if it were input to Anna, but without displaying anything. Stands for a bunch of stuff, but I like to think of it as something exotic and powerful. You should to. This tag allows for the same question to be "passed around" to different parts of the program. Very useful. For instance, the pattern "DO YOU LIKE CHICKEN?" can be passed to "WHAT KINDS OF FOODS DO YOU LIKE", without the user seeing anything. Quite cool.
+<h2>&lt;star /&gt;</h2>
+Used when embedded in an &lt;srai&gt; tag, this matches whatever information was gerenalized with the * (or the underscore)in the pattern tag. For instance, using the above example, the pattern "DO YOU LIKE *?", using the &lt;star /&gt; tag makes the word "CHICKEN" substitute for the &lt;star /&gt; tag.
+<h2>&lt;sr /&gt;</h2>
+Shortcut for &lt;srai&gt;&ltstar /&gt;&lt;/srai&gt;. See above for what this means, it is only effective when the * in the pattern is holding a useful match.
+<h2>&lt;think&gt; ...... &lt;/think&gt;</h2>
+This tag essentially makes Anna perform whatever is between the tags but not output anything to the user. Most useful when combined with &lt;set&gt; or &lt;get&gt;.
+<h2>&lt;topic name="VALUE"&gt; ...... &lt;/topic&gt;</h2>
+The topics appear in the star.aiml file. If there has been a topic &lt;set&gt; matching the query, then this tag will be utilized. See star.aiml for examples of use.
+<h2>&lt;set name="VALUE"&gt; ...... &lt;/set&gt;</h2>
+Sets whatever is within the tags to the variable VALUE. Can be retrieved through use of the &lt;get&gt; tag.
+<h2>&lt;get name="VALUE" /&gt;</h2>
+Outputs whatever is in the variable VALUE. If VALUE has not been &lt;set&gt;, defaults to "".
+<h2>&lt;person /&gt;</h2>
+This tag is like &lt;star /&gt; only it replaces it when not enclosed in an &lt;srai&gt; tag.
+<h2>&lt;!-- ...... --&gt;</h2>
+The comment tag. whatever is between the tag is not parsed - allowing developers to make helpful notes while coding.
+</div>
+</body>
+</aiml>

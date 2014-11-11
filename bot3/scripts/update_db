@@ -1,0 +1,49 @@
+#!/usr/bin/perl
+
+if ((scalar(@ARGV) == 0) || (grep /^-/, @ARGV)) {
+    print "\n";
+    print "  usage:  $0 <sourcefile> <dbmname>\n";
+    print "\n";
+    print "           adds elements in <sourcefile> to dbm <dbmname>\n";
+    print "\n";
+    print "           <sourcefile> is a text file of one-per-line\n";
+    print "                <key> => <value>\n";
+    print "           pairs, \n";
+    print "\n";
+    print "           <dbmname> the the basename of the dbm db\n";
+    print "           (e.g. 'infobot-is')\n";
+    print "\n";
+
+    exit(1);
+}
+
+$sourcefile = $ARGV[0];
+$dbname = $ARGV[1];
+
+open(IN, $sourcefile) 
+    || die "can\'t open $sourcefile as source\n";
+
+dbmopen(db, $dbname, 0655) || die "Couldn't dbmopen \"$dbname\"";
+$| = 1;
+
+while (<IN>) {
+    chomp;
+    next if /^\s*$/;
+
+    if (!/=>/) {
+	print "skipping: $_";
+	next;
+    }
+    my ($left, $right) = split(/\s*=>\s*/, $_, 2);
+    
+    $left =~ s/^\s*//;
+    $left =~ tr/A-Z/a-z/;
+    $right =~ s/\s+$//;
+
+    $db{$left} = $right;
+    print $left ." => ". $right ."\n" if (!(++$dcount % 100));
+}
+
+close(IN);
+dbmclose(db);
+exit;

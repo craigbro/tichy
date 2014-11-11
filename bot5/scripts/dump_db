@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+
+if (!@ARGV || grep /^-/, @ARGV) {
+    print "\n";
+    print "  usage:  $0 <dbname>\n";
+    print "\n";
+    print "          prints out an ascii flat file of the\n";
+    print "          database <dbname>.  <dbname> should be\n";
+    print "          the basename of the db, e.g.\n";
+    print "\n";
+    print "          $0 infobot-is\n";
+    print "\n";
+    exit(1);
+}
+
+foreach $dbname (@ARGV) {
+    dbmopen(%db, $dbname, undef) || die "Couldn't dbmopen \"$dbname\"";
+    $| = 1;
+
+    my $key;
+    foreach $key (keys %db) {
+	my $val = $db{$key};
+	chomp $val;
+	print "$key => $val\n";
+    }
+
+    dbmclose(%db);
+}
