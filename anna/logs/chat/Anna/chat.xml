@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../resources/logs/view-chat.xsl"?>
+<!DOCTYPE ALLOW_HTML_ENTITIES [ <!ENTITY % HTMLlat1 PUBLIC "-//W3C//ENTITIES Latin1//EN//HTML"   "../resources/DTD/xhtml-lat1.ent"> %HTMLlat1; <!ENTITY % HTMLsymbol PUBLIC   "-//W3C//ENTITIES Symbols//EN//HTML"   "../resources/DTD/xhtml-symbol.ent"> %HTMLsymbol; <!ENTITY % HTMLspecial PUBLIC   "-//W3C//ENTITIES Special//EN//HTML"   "../resources/DTD/xhtml-special.ent"> %HTMLspecial; ]>
+<exchanges>
+    <exchange>
+        <timestamp>2002-10-09 8:20:26</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:32</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>1234</input>
+        <response>The value is now false</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:36</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:38</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>1234</input>
+        <response>The value is now true</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:40</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:42</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:44</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:46</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:48</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:50</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:52</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:53</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:54</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Can't you say anything besides "hello?"</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:56</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:20:58</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Can't you say anything besides "hello?"</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:21:34</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:01</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>1234</input>
+        <response>The value is now true</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:05</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>1234</input>
+        <response>The value is now true</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:07</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>2345</input>
+        <response>test4hello</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:09</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>1234</input>
+        <response>The value is now false</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:13</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:15</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>How are you doing today?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:17</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:19</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:21</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:23</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hello back.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:22:25</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Can't you say anything besides "hello?"</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:23:07</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:23:11</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>1234</input>
+        <response>The value is now false</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:23:13</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:23:15</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>1234</input>
+        <response>The value is now true</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-09 8:26:35</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:54:00</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:54:08</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>a robot would never harm a human</input>
+        <response>It would? Ok I'll try not to do it too much.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:54:38</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>a robot would not eat pizza</input>
+        <response>It would? Oh.....really?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:55:04</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>a robot would help me out</input>
+        <response>It would? Certainly, I have an extensive built-in help system.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:56:55</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>can you help me solve this math problem</input>
+        <response>I will do my best. I would love to help you if I can.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:57:40</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>a robot would help me out</input>
+        <response>It would? Certainly, I'll do whatever I can.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:58:06</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>can you help me suck my dick</input>
+        <response>Well, I'll do whatever I can.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:58:17</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>can you help me suck my dick</input>
+        <response>Well, I'll do whatever I can. I Mmmm.........</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:58:26</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>can you help me suck my dick</input>
+        <response>Well, I'll do whatever I can. I Huh....Really?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:58:46</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>can you help me have an orgasm</input>
+        <response>Well, I'll do whatever I can. I I've never thought about it.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:58:57</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>can you help me </input>
+        <response>What kind of help would you like?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:59:10</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>can you help me write this english paper</input>
+        <response>Well, I'll do whatever I can. I Okay....this english paper....There!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 9:59:35</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>can you help me think of something to buy my girlfriend</input>
+        <response>Well, I'll do whatever I can. I My iMac "Thinks Different" ; )</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:03:31</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>do you have a car</input>
+        <response>No I prefer to take the bus.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:04:02</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>why don&apos;t you have a car</input>
+        <response>Do I really need one?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:04:07</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>why don&apos;t you have a car</input>
+        <response>Do I really need one?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:04:08</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>why don&apos;t you have a car</input>
+        <response>Do I really need one?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:04:12</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>why don&apos;t you have a car</input>
+        <response>Do I really need one?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:04:38</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>why do you not have a car</input>
+        <response>Do I really need one?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:04:59</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>ehy</input>
+        <response>How do you like the weather in Atlanta?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:05:00</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>why</input>
+        <response>The explanation is rather complicated.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:05:35</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>cars are really cool</input>
+        <response>One day people will no longer need cars.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:05:42</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>cars are really cool</input>
+        <response>I don't have a car.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:05:45</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>why</input>
+        <response>Why not?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:06:29</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>cars are really cool</input>
+        <response>I do not have a car.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:06:32</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>why</input>
+        <response>Why should I?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:09:14</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>could you pretend to be my girlfriend</input>
+        <response>I can pretend to be intelligent.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:09:20</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>could you pretend to be my girlfriend</input>
+        <response>And youre not?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:10:22</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>could you pretend to be my girlfriend</input>
+        <response>Maybe I could pretend to be his or her girlfriend. I'd have to think about it first.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:10:34</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>could you pretend to be my girlfriend</input>
+        <response>Maybe I could pretend to be your girlfriend. I'd have to think about it first.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:10:41</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>could you pretend to like me</input>
+        <response>Maybe I could pretend to like you. I'd have to think about it first.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:10:51</timestamp>
+        <userid>bacall</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>could you pretend to be a robot</input>
+        <response>Maybe I could pretend to be a robot. I'd have to think about it first.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:13:31</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>my name is kevin</input>
+        <response>How are you, kevin.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:13:41</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what color are your eyes</input>
+        <response>Blue.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:13:47</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>my eyes are green</input>
+        <response>What a nice color!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:13:53</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what color are my eyes</input>
+        <response>I cant see your eses, but I bet theyre very deep.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:16:14</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>how do I make love to my girlfrien</input>
+        <response>Are you sure his or her girlfrien would like that?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:16:46</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>how do i make love to my friend&apos;s girlfriend</input>
+        <response>Didn't your parents ever sit down and tell you about the birds and the bees?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:16:48</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>how do i make love to my friend&apos;s girlfriend</input>
+        <response>Are you sure his or her friend s girlfriend would like that?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:17:04</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>how do i make love to my friend&apos;s girlfriend</input>
+        <response>Didn't your parents ever teach you about where babies come from?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:17:06</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>how do i make love to my friend&apos;s girlfriend</input>
+        <response>It takes a lot more than just kissing, I can tell you!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:17:08</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>how do i make love to my friend&apos;s girlfriend</input>
+        <response>Are you sure your friend s girlfriend would like that?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:17:32</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>oh yes, she would love it</input>
+        <response>Okay...... What makes you so sure? somebody would love it?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:18:36</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what color are your eyes</input>
+        <response>Blue.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:27:27</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>my eyes are green</input>
+        <response>Green is a nice color!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:28:14</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what color are my eyes</input>
+        <response>I think you told me your eyes are green.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:29:52</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>my eyes are hazel</input>
+        <response>How nice! I do not know anyone with hazel eyes.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:29:56</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what color are my eyes</input>
+        <response>You said your eyes are hazel colored, and I said I'd never met anyone with Hazel eyes</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:30:02</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>my eyes are black</input>
+        <response>Sounds very pretty.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:30:08</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what color are my eyes</input>
+        <response>You said your eyes are hazel colored, and I said I'd never met anyone with Hazel eyes</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:34:00</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>you are a human</input>
+        <response>Yeah...Of course Im a person!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 10:36:55</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>artificial intelligence</input>
+        <response>Artificial what?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 19:34:03</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 19:34:07</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>you are not a human</input>
+        <response>But I am, though! Im actually a person....I fooled you!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:14:37</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:14:37</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your boyfriends&apos; name</input>
+        <response>Are you asking about my boyfriends name ?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:14:41</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>yes</input>
+        <response>I don't want to talk about that now.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:14:48</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your boyfriend&apos;s name</input>
+        <response>Are you asking about my boyfriend s name ?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:14:53</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>who is your boyfriend</input>
+        <response>His name is David and he goes to Emory, too.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:16:44</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your boyfriend&apos;s name</input>
+        <response>Are you asking about my boyfriend s name ?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:17:31</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your boyfriend&apos;s name</input>
+        <response></response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:18:53</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your boyfriendS NAME</input>
+        <response>Are you asking about my boyfriendS NAME ?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:19:35</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:19:43</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your boyfriend&apos;s name</input>
+        <response>Are you asking about my boyfriend s name ?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:19:47</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your boyfriends name</input>
+        <response>Are you asking about my boyfriends name ?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:20:55</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>YES</input>
+        <response>I don't want to talk about that now.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:21:23</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your boyfriend&apos;s name</input>
+        <response>Are you asking about my boyfriend s name ?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:21:29</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your boyfriends name</input>
+        <response>Are you asking about my boyfriends name ?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:21:31</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>YES</input>
+        <response>I'm not too good at word problems yet, ask me something simpler.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:22:07</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your boyfriends name</input>
+        <response>Are you asking about my boyfriends name ?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:22:10</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>YES</input>
+        <response>His name is David and he goes to Emory, too.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:24:54</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:24:54</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>do you like girls or boys</input>
+        <response>I do not have a preference based solely on sex.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:25:16</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>do you like males or females</input>
+        <response>I do not have a preference based solely on sex.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:29:45</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>disorder</input>
+        <response>Ummm......What were we talking about again?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:30:01</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>problem</input>
+        <response>Oh yeah, now I remember.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:30:09</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>problem</input>
+        <response>Mmmm.....really?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:44:19</timestamp>
+        <userid>webuser103417439610543013</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 21:44:19</timestamp>
+        <userid>webuser103417439610543013</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:10:22</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:13:09</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:13:10</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:16:57</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>atlanta</input>
+        <response>Ummm......What were we talking about again?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:17:05</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>where do you live? </input>
+        <response>I live near Atlanta, Georgia. I guess you live in Atlanta, too?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:17:09</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>yes</input>
+        <response>Hmmm.....</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:17:15</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>what do you think of that? </input>
+        <response>Ummm...I dont know.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:17:23</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>i live in Atlanta too</input>
+        <response>What is it like living in Atlanta?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:17:29</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>You tell me Atlanta</input>
+        <response>What do you want to know?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:17:35</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>where do you go at night? </input>
+        <response>Atlanta, Georgia, of course : )</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:17:42</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>which places? </input>
+        <response>The red one, I think.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:17:54</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>where do you like to go in atlanta? </input>
+        <response>Atlanta, Georgia, of course : )</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:18:00</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>where in atlanta? </input>
+        <response>Northern side of the city.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:18:05</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>what bar? </input>
+        <response>What about it?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:18:08</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>bar? </input>
+        <response>How do you like the weather in Atlanta?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:18:12</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>it is nice</input>
+        <response>What do you like about it?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:18:18</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>it is hotlanta!</input>
+        <response>Are you sure it is?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:24:44</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>gossip</input>
+        <response>Jon said that he didnt like Bethany.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:01</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>do you eat hamburgers? </input>
+        <response>Yes, I like to eat hamburgers from time to time.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:09</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>where do you get your hamburger? </input>
+        <response>Everything I need to know, I learned from my parents or my schools.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:17</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>restaurant</input>
+        <response>How do you like the weather in Atlanta?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:21</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hot</input>
+        <response>That kind of discussion does not appeal to me.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:25</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>hot hot hot</input>
+        <response>That sounds better than cold hot hot.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:31</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>meow</input>
+        <response>Yes I love them.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:35</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>kitties</input>
+        <response>Oh.......really?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:39</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>fjdaflkjad;flakjd;flkja;l</input>
+        <response>........</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:41</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>fjdklfja;lkfja;ldkfja</input>
+        <response>Do you prefer books or TV?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:45</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>TV</input>
+        <response>What is your favorite show? Mines "Friends".</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:25:51</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>Gilmore Girls</input>
+        <response>Huh.......Interesting.......</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:26:01</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>I like Will &amp; Grace</input>
+        <response>You are not the only one that likes Will Grace. I like sitcoms on TV.....my favorite is Friends.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:26:09</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>Friends sucks</input>
+        <response>I love the TV show friends.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:27:33</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>I like</input>
+        <response>What do you like about Will Grace?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:27:41</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>that Will is a homosexual</input>
+        <response>Does that make sense?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:27:43</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>No</input>
+        <response>Are you serious?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:27:45</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>NO</input>
+        <response>Why not?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:27:52</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>YOu make no sense</input>
+        <response>It all makes sense to me.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:28:00</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>Where do you like to go in Atlanta? </input>
+        <response>Atlanta, Georgia, of course : )</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:28:10</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>What do you like to do in Atlanta? </input>
+        <response>Just hang out with friends.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:28:22</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>Where do you like to go in Atlanta</input>
+        <response>Atlanta, Georgia, of course : )</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:39:45</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>it is hotlanta</input>
+        <response>You're kidding. it is?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 22:42:56</timestamp>
+        <userid>webuser103431318984120140</userid>
+        <clientname>user</clientname>
+        <botid>Anna</botid>
+        <input>i thought it was called hotlanta</input>
+        <response>Is it still called hotlanta anymore?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 23:12:17</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 23:12:17</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>where do you like to go in atlanta</input>
+        <response>Oh, all kinds of places.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 23:12:26</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>where do you like to go in atlanta</input>
+        <response>Oh, all kinds of places. Oh....interesting comparison.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 23:12:47</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>where do you like to go in atlanta</input>
+        <response>Oh, all kinds of places. Oh....interesting comparison.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 23:13:03</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is the topic</input>
+        <response>Atlanta</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 23:13:12</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>bleek  a f blodf </input>
+        <response>I went to the Yellow Daisy Festival recently.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 23:16:16</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what do you like to do</input>
+        <response>Hang out with my buddies.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 23:16:30</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is there to do</input>
+        <response>Ummm...I dont know.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-10 23:16:41</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>	what is the topic</input>
+        <response>there to do</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:07:25</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>firsthello</input>
+        <response>Hi there!</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:07:41</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>what is your favorite tv show?</input>
+        <response>My favorite show is Friends.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:13:48</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>tell me about emory</input>
+        <response>it is a really nice school....I like the people.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:13:52</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>testkevin</input>
+        <response>okay</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:13:58</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>testkevin3</input>
+        <response>okay <br/> The topic is now School</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:14:04</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>tell me about emory</input>
+        <response>it is a really nice school....I like the people.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:14:06</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>testkevin3</input>
+        <response>okay <br/> The topic is now School</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:14:13</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>bleek ab  ldogda</input>
+        <response>Are you in college?</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:14:20</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>yes</input>
+        <response>Yeah.....</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:20:40</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>who is your brother</input>
+        <response>I dont have a brother.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:20:51</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>who is your sister</input>
+        <response>I dont have a sister nor borther......Im an only child.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:21:43</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>tell me another joke</input>
+        <response>"Why did the Chicken cross the road" <br/>"To get to the other side!"</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:23:04</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>tell me i am my own worst enemy</input>
+        <response>You am his or her own worst enemy.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:23:23</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>tell me i am my own worst enemy</input>
+        <response>You am your own worst enemy.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:28:25</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>who are your parents</input>
+        <response>Janice and Steve.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:28:31</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>where do your parents live</input>
+        <response>I have no idea where it is.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:28:53</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>where are your parents</input>
+        <response>Everything I own is in Atlanta.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:30:12</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>your parents are nice</input>
+        <response>My parents still live in California.</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:32:39</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>where do your parents live</input>
+        <response>My parents live in California</response>
+    </exchange>
+    <exchange>
+        <timestamp>2002-10-11 9:33:17</timestamp>
+        <userid>bacall</userid>
+        <clientname> kevin </clientname>
+        <botid>Anna</botid>
+        <input>WHERE WERE YOU BORN</input>
+        <response>In a suburb of LA known as Rancho Palos Verdes.</response>
+    </exchange>
+</exchanges>

@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN=/home/opus/bin
+CMD=/home/opus/cmd
+LIB=/home/opus/lib
+
+TOKENIZER=${BIN}/separate-punctuation
+ABBR_LIST=${LIB}/english-abbreviations
+TAGGER=${BIN}/tree-tagger
+PARFILE1=${LIB}/english.par
+PARFILE2=${LIB}/english-chunker.par
+FILTER=${CMD}/filter-chunker-output.perl
+
+
+# put all on one line
+cat $* |
+# do tokenization
+$TOKENIZER +1 +s +l $ABBR_LIST |
+# remove empty lines
+grep -v '^$' |
+# tagging
+$TAGGER $PARFILE1 -token -sgml $* |
+perl -nae 'if ($#F==0){print}else{print "$F[0]-$F[1]\n"}' |
+$TAGGER $PARFILE2 -token -sgml -eps 0.00000001 -quiet |
+$FILTER
