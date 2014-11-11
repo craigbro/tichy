@@ -1,6 +1,0 @@
-#!/bin/bash
-set -e
-
-shift
-
-lisp --noinform --load /home/opus/nastygram.lisp --eval "(nastygram \"$*\")" --eval "(cl-user::quit)"
