@@ -1,5 +1,5 @@
 (ns tichy.core
-  (:require [xmpp-clj :as xmpp]))
+  (:require [tichy.lib.xmpp :as xmpp]))
 
 (defonce brain (atom {:name "Ijon Tichy"}))
 
@@ -20,7 +20,6 @@
          (partial
           remove #{func})))
 
-
 (def ears (fn [m]
             (loop [hooks @ear-hook]
               (when (first hooks)
@@ -31,7 +30,7 @@
                   r
                   (recur (rest hooks)))))))
 
-(defonce voice (atom 
+(defonce voice (atom
                 (fn [m]
                   m)))
 
@@ -41,23 +40,32 @@
 (defn forget [k v]
   (swap! brain dissoc k))
 
-(defn live [config]
-  (let [myconfig 
-        {:name  (or (:name config)
-                    (:name brain)
-                    "Ijon Tichy")
-         :username (:username config)
-         :password (:password config)
-         :host (:host config)
-         :domain (:domain config)
-         :handler (fn [m] 
-                    (when-let [response (ears m)]
-                      (@voice response)))}]
-    (remember :config myconfig)
-    (apply xmpp/start-bot 
-           (flatten (seq (:config @brain))))))
+(defn tichy-handler [message]
+  (when-let [response (ears message)]
+    (@voice response)))
 
-(defn die [config]
-  (xmpp/stop-bot (or (:name config) (:name brain) "Ijon Tichy")))
+(defonce config (atom {:username "tichy"
+                       :password "doot"
+                       :host "localhost"
+                       :domain "localhost"}))
 
+(defn stopped->started [brain]
+  (let [connection (xmpp/connection-factory @config)]
+    (xmpp/add-handler! connection tichy-handler)
+    (merge brain {:state :running
+                  :connection connection})))
 
+(defn started->stopped [brain]
+  (.disconnect (:connection brain))
+  (-> brain
+      (dissoc :connection)
+      (assoc :state :stopped)))
+
+(defn start []
+  (swap! brain stopped->started))
+
+(defn stop []
+  (swap! brain started->stopped))
+
+;; (start)
+;; (stop)
